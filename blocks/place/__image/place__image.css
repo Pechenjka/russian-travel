@@ -1,0 +1,35 @@
+.place__image {
+    display: block;
+    max-width: 460px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    object-fit: contain;
+}
+@media screen and (max-width: 1279px)  {
+    .place__image {
+        max-width: 440px;
+    }
+}
+@media screen and (max-width: 1023px)  {
+    .place__image {
+        max-width: 340px;  
+    }
+}
+@media screen and (max-width: 767px)  {
+    .place__image {
+        max-width: calc(100% - 200px);
+        min-width: 340px;
+        margin: 48px auto 32px;
+    }
+}
+@media screen and (max-width: 400px)  {
+    .place__image {
+        max-width: 100%; 
+        margin: 32px auto;
+    }
+}
+@media screen and (max-width: 340px)  {
+    .place__image {
+        min-width: 320px; 
+    }
+}

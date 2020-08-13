@@ -1,0 +1,6 @@
+.header__list-items-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 6px 0;
+}

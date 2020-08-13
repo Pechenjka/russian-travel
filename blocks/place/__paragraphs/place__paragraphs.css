@@ -1,0 +1,16 @@
+.place__paragraphs {
+    margin: 0;
+    padding: 0;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+@media screen and (max-width: 767px)  {
+    .place__paragraphs {
+        min-width: 288px;
+        font-size: 16px;
+        line-height: 163%;
+        grid-row: 3/4;
+        grid-column: 1/2;
+        margin: 0 auto;
+    }
+}
