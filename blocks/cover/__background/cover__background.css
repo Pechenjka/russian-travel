@@ -1,15 +1,15 @@
 .cover__background {
     position: relative;
-    display: block;
-    max-width: 100%;
+    max-width: 1184px;
+    min-height: 740px;
     background-image: url("../../../images/__background.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 62.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     
   }
   .cover__background::before {
@@ -44,3 +44,24 @@
     bottom: 0;
     background-color: rgba(42, 44, 47, 0.8);
   }
+
+  @media screen and (max-width: 1024px) {
+    .cover__background {
+      min-height: 640px;  
+    }
+}
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;  
+  }
+}
+@media screen and (max-width: 500px) {
+  .cover__background {
+    min-height: 265.625px;  
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;  
+  }
+}
