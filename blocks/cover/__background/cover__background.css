@@ -1,9 +1,9 @@
 .cover__background {
     
-    display: block;
+    display: inline-block;
     max-width: 100%;
     background-image: url("../../../../images/__background.jpg");
-    background-size: contain;
+    background-size: 1184px 740px;
     background-repeat: no-repeat;
     padding-bottom: 62.5%;
     display: flex;
