@@ -1,6 +1,6 @@
 .header__item-link {
     margin-right: 18px;  
 }
-.header__item-link:nth-child(2n) {
+.header__item-link:last-child {
     margin-right: 0;
 }

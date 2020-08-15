@@ -5,8 +5,8 @@
     color: #FFFFFF;
     font-style: normal;
     display: block;
+    transition: 1s linear 0s;
 }
 .place__link:hover {
     opacity: 0.8;
-    transition: 1s linear 0s;
 }
